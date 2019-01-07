@@ -12,6 +12,4 @@
 # production
 /build
 
-#private
-.env
-nodemon.json
+
