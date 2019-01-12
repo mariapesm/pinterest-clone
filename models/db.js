@@ -4,7 +4,7 @@ var mongoose = require( 'mongoose' );
 
 // Build the connection string
 //var dbURI = 'mongodb://localhost:27017/votingapp';
-var dbURI = process.env.MONGOLAB_URI;
+var dbURI = 'mongodb://marype:networkengineering12@ds149404.mlab.com:49404/pinterest-clone';
 mongoose.Promise = global.Promise;
 // Create the database connection
 mongoose.connect(dbURI, { useMongoClient: true });
