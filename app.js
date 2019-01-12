@@ -7,7 +7,7 @@ var app = module.exports = express();
 var httpProxy = require('http-proxy');
 // Set up PROXY server with the module from above
 const apiProxy = httpProxy.createProxyServer(
-  {target:"https://nightappsearch.herokuapp.com/"}
+  {target:"http://localhost:3001"}
 )
 //apply middleware that intercepts all requests to the /api and retrieves the resources from the prxy
 
