@@ -9,8 +9,8 @@ var User = require('../models/user');
 // load the auth variables
 var configAuth = {
     'twitterAuth' : {
-      'consumerKey'       : '5dKqoYVPokJN0ozQCqyD5Z9tq',
-      'consumerSecret'    : 'zJEnk4Bz3oWXggXOEl0P3KyWMs968b181BNj2z3oZjVwZdzeSf',
+      'consumerKey'       : '5dKqoYVPokJN0ozQCqyD5Z9tq';
+      'consumerSecret'    : 'zJEnk4Bz3oWXggXOEl0P3KyWMs968b181BNj2z3oZjVwZdzeSf';
       'callbackURL'       : process.env.TWITTER_CALLBACK
     }
 }
